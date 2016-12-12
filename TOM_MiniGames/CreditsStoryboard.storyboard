@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="ahl-Zz-GCn">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Credits View Controller-->
+        <scene sceneID="SRi-DG-nsO">
+            <objects>
+                <viewController storyboardIdentifier="CreditsViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ahl-Zz-GCn" customClass="CreditsViewController" customModule="TOM_MiniGames" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="txm-Tw-f76"/>
+                        <viewControllerLayoutGuide type="bottom" id="2OZ-Rp-OAU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="uEw-sz-mnw">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TOM" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jMD-oD-uuh">
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Desgin by:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="APP-Xk-K6c">
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TOM" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JWk-cV-arg">
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Code by:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WY5-0o-KMp">
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TOM" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kIL-iA-TlW">
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Audio by:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lao-U1-chK">
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TOM" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ySc-Qo-nDY">
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Script by" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Keb-gw-PWD">
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TOM" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pRQ-Hl-8dN">
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Directed by" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Tc-KW-Zri">
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="jMD-oD-uuh" firstAttribute="centerX" secondItem="APP-Xk-K6c" secondAttribute="centerX" id="0yj-pJ-zht"/>
+                            <constraint firstItem="ySc-Qo-nDY" firstAttribute="centerX" secondItem="WY5-0o-KMp" secondAttribute="centerX" id="513-Ie-pGe"/>
+                            <constraint firstItem="Lao-U1-chK" firstAttribute="centerX" secondItem="jMD-oD-uuh" secondAttribute="centerX" id="9Tb-Ep-67X"/>
+                            <constraint firstItem="ySc-Qo-nDY" firstAttribute="top" secondItem="Keb-gw-PWD" secondAttribute="bottom" constant="8" symbolic="YES" id="BFh-8c-Z75"/>
+                            <constraint firstItem="WY5-0o-KMp" firstAttribute="centerX" secondItem="uEw-sz-mnw" secondAttribute="centerX" id="ESw-Rq-rfe"/>
+                            <constraint firstItem="WY5-0o-KMp" firstAttribute="top" secondItem="ySc-Qo-nDY" secondAttribute="bottom" constant="8" symbolic="YES" id="G0V-HB-BOL"/>
+                            <constraint firstItem="JWk-cV-arg" firstAttribute="top" secondItem="WY5-0o-KMp" secondAttribute="bottom" constant="8" symbolic="YES" id="GFN-80-guo"/>
+                            <constraint firstItem="kIL-iA-TlW" firstAttribute="top" secondItem="Lao-U1-chK" secondAttribute="bottom" constant="8" symbolic="YES" id="Ip9-mU-US5"/>
+                            <constraint firstItem="kIL-iA-TlW" firstAttribute="centerX" secondItem="Lao-U1-chK" secondAttribute="centerX" id="K8C-nh-g0B"/>
+                            <constraint firstItem="pRQ-Hl-8dN" firstAttribute="top" secondItem="7Tc-KW-Zri" secondAttribute="bottom" constant="8" symbolic="YES" id="LsK-8R-ppD"/>
+                            <constraint firstItem="Keb-gw-PWD" firstAttribute="top" secondItem="pRQ-Hl-8dN" secondAttribute="bottom" constant="8" symbolic="YES" id="MM2-wS-uAe"/>
+                            <constraint firstItem="APP-Xk-K6c" firstAttribute="top" secondItem="JWk-cV-arg" secondAttribute="bottom" constant="8" symbolic="YES" id="UD2-Kr-uuW"/>
+                            <constraint firstItem="Keb-gw-PWD" firstAttribute="centerX" secondItem="ySc-Qo-nDY" secondAttribute="centerX" id="WJQ-jh-DUq"/>
+                            <constraint firstItem="pRQ-Hl-8dN" firstAttribute="centerX" secondItem="Keb-gw-PWD" secondAttribute="centerX" id="Y1S-oU-Kct"/>
+                            <constraint firstItem="7Tc-KW-Zri" firstAttribute="centerX" secondItem="pRQ-Hl-8dN" secondAttribute="centerX" id="cMX-x7-oEW"/>
+                            <constraint firstItem="APP-Xk-K6c" firstAttribute="centerX" secondItem="JWk-cV-arg" secondAttribute="centerX" id="iB3-iI-3Wi"/>
+                            <constraint firstItem="WY5-0o-KMp" firstAttribute="centerY" secondItem="uEw-sz-mnw" secondAttribute="centerY" id="n1l-zH-DX3"/>
+                            <constraint firstItem="jMD-oD-uuh" firstAttribute="top" secondItem="APP-Xk-K6c" secondAttribute="bottom" constant="8" symbolic="YES" id="sdk-nJ-dqs"/>
+                            <constraint firstItem="Lao-U1-chK" firstAttribute="top" secondItem="jMD-oD-uuh" secondAttribute="bottom" constant="8" symbolic="YES" id="xgQ-cQ-YhI"/>
+                            <constraint firstItem="JWk-cV-arg" firstAttribute="centerX" secondItem="WY5-0o-KMp" secondAttribute="centerX" id="ygm-NC-bsu"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outletCollection property="creditLabels" destination="7Tc-KW-Zri" collectionClass="NSMutableArray" id="utm-EX-Kg3"/>
+                        <outletCollection property="creditLabels" destination="pRQ-Hl-8dN" collectionClass="NSMutableArray" id="xai-0q-lrJ"/>
+                        <outletCollection property="creditLabels" destination="Keb-gw-PWD" collectionClass="NSMutableArray" id="a7P-OR-umx"/>
+                        <outletCollection property="creditLabels" destination="ySc-Qo-nDY" collectionClass="NSMutableArray" id="cWz-vl-dDT"/>
+                        <outletCollection property="creditLabels" destination="WY5-0o-KMp" collectionClass="NSMutableArray" id="Sxt-ED-dPZ"/>
+                        <outletCollection property="creditLabels" destination="JWk-cV-arg" collectionClass="NSMutableArray" id="uZE-wK-ZQV"/>
+                        <outletCollection property="creditLabels" destination="APP-Xk-K6c" collectionClass="NSMutableArray" id="lZ9-PL-UaY"/>
+                        <outletCollection property="creditLabels" destination="jMD-oD-uuh" collectionClass="NSMutableArray" id="6mc-fu-idu"/>
+                        <outletCollection property="creditLabels" destination="Lao-U1-chK" collectionClass="NSMutableArray" id="yHJ-Kk-NCr"/>
+                        <outletCollection property="creditLabels" destination="kIL-iA-TlW" collectionClass="NSMutableArray" id="mEC-tK-fcH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1dt-1d-jTG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="545" y="109"/>
+        </scene>
+    </scenes>
+</document>

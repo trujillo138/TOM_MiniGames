@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BQe-NA-fTn">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Card View Controller-->
+        <scene sceneID="Ruh-vW-109">
+            <objects>
+                <viewController storyboardIdentifier="CardViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BQe-NA-fTn" customClass="CardViewController" customModule="TOM_MiniGames" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="4Wo-mo-Wym"/>
+                        <viewControllerLayoutGuide type="bottom" id="zNS-0Q-3eO"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ppX-ie-GVn">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="rXN-L7-40O">
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="oui-cQ-0v7">
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HTr-fJ-Pkb" customClass="CardView" customModule="TOM_MiniGames" customModuleProvider="target">
+                                                <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QyX-Xg-1CI" customClass="CardView" customModule="TOM_MiniGames" customModuleProvider="target">
+                                                <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DBS-5K-ndV" customClass="CardView" customModule="TOM_MiniGames" customModuleProvider="target">
+                                                <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qew-6X-Inf" customClass="CardView" customModule="TOM_MiniGames" customModuleProvider="target">
+                                                <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </view>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="oui-cQ-0v7" secondAttribute="height" multiplier="4:1" id="VF0-Zs-TBn"/>
+                                        </constraints>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="VF0-Zs-TBn"/>
+                                            </mask>
+                                        </variation>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="H9U-0s-p8E">
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="58a-Df-PWM" customClass="CardView" customModule="TOM_MiniGames" customModuleProvider="target">
+                                                <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kLM-g1-IPR" customClass="CardView" customModule="TOM_MiniGames" customModuleProvider="target">
+                                                <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DNq-lK-1HR" customClass="CardView" customModule="TOM_MiniGames" customModuleProvider="target">
+                                                <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UaB-fw-8sW" customClass="CardView" customModule="TOM_MiniGames" customModuleProvider="target">
+                                                <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </view>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="H9U-0s-p8E" secondAttribute="height" multiplier="4:1" id="YnL-nb-diV"/>
+                                        </constraints>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="YnL-nb-diV"/>
+                                            </mask>
+                                        </variation>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="rXN-L7-40O" secondAttribute="trailing" id="bPI-lC-Xmr"/>
+                            <constraint firstItem="rXN-L7-40O" firstAttribute="leading" secondItem="ppX-ie-GVn" secondAttribute="leadingMargin" id="c03-xP-oFh"/>
+                            <constraint firstItem="rXN-L7-40O" firstAttribute="centerY" secondItem="ppX-ie-GVn" secondAttribute="centerY" id="ip6-ZZ-8A6"/>
+                            <constraint firstItem="rXN-L7-40O" firstAttribute="height" secondItem="ppX-ie-GVn" secondAttribute="height" multiplier="0.4" id="zWq-JF-dcc"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outletCollection property="cardViews" destination="HTr-fJ-Pkb" collectionClass="NSMutableArray" id="2se-IH-vGb"/>
+                        <outletCollection property="cardViews" destination="QyX-Xg-1CI" collectionClass="NSMutableArray" id="qEF-tR-D9S"/>
+                        <outletCollection property="cardViews" destination="DBS-5K-ndV" collectionClass="NSMutableArray" id="dFo-oZ-yMd"/>
+                        <outletCollection property="cardViews" destination="qew-6X-Inf" collectionClass="NSMutableArray" id="gCG-PK-dlP"/>
+                        <outletCollection property="cardViews" destination="58a-Df-PWM" collectionClass="NSMutableArray" id="n30-kO-Wjm"/>
+                        <outletCollection property="cardViews" destination="kLM-g1-IPR" collectionClass="NSMutableArray" id="RDV-y9-d4L"/>
+                        <outletCollection property="cardViews" destination="DNq-lK-1HR" collectionClass="NSMutableArray" id="GHB-4Y-Gsv"/>
+                        <outletCollection property="cardViews" destination="UaB-fw-8sW" collectionClass="NSMutableArray" id="V1g-9b-AiM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="w9h-W8-QpD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="102" y="362"/>
+        </scene>
+    </scenes>
+</document>
